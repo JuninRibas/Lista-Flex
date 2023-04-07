@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+}
+.coluna1{
+    width: 300px;
+    background-color: rgb(175, 207, 235);
+    width: 25%;
+}
+.coluna2{
+   flex-grow: 1;
+    background-color: rgb(197, 164, 123);
+}
+.coluna3{
+    width: 300px;
+    background-color: rgb(193, 220, 243);
+    width: 25%;
+}

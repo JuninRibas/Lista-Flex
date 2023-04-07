@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+}
+.coluna1{
+    width: 300px;
+    background-color: aliceblue;
+}
+.coluna2{
+    flex-grow: 1;
+    background-color: bisque;
+}

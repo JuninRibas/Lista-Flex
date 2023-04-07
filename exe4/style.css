@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+}
+.coluna1{
+    flex-basis: 0;
+    flex-grow: 1;
+    background-color: #350ee2;
+    padding: 20px;
+    box-sizing: border-box;
+
+}

@@ -1,0 +1,18 @@
+.linha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .caixa1 {
+    width: 150px;
+    background-color: #ccc;
+    padding: 35px;
+  }
+  
+  .caixa2 {
+    flex-grow: 1;
+    background-color: #eee;
+    padding: 35px;
+  }

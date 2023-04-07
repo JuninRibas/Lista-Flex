@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .calculadora {
+    background-color: #5a5959;
+    border: 1px solid #000000;
+    padding: 60px;
+    border-radius: 10px;
+  }
+  .tela {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 20px;
+  }
+  .tela input {
+    border: none;
+    font-size: 30px;
+    width: 100%;
+    text-align: right;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .linha {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .botao {
+    font-size: 24px;
+    background-color: #ddd;
+    border: none;
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .botao.cinza {
+    background-color: #ccc;
+  }
+  .botao.laranja {
+    background-color: #ff9a00;
+    color: white;
+  }
